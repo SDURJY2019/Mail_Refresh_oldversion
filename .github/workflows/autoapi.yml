@@ -10,7 +10,7 @@ on:
   #  branches: 
   #    - master
   schedule:
-    - cron: '${random.int[10,20]} */2 * * *'
+    - cron: '*/19 */2 * * *'
   watch:
     types: [started]
    
